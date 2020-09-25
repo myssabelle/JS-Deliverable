@@ -46,23 +46,23 @@
                     <form action="POST" data-netlify="true">
                         <div class="fields">
                             <div class="fieldhalf">
-                                <input type="text" name="name" id="name" placeholder="Name"/>
+                                <input class="name" type="text" name="name" id="name" placeholder="NAME"/>
                             </div>
                             <div class="fieldhalf">
-                                <input type="email" name="email" id="email" placeholder="Email"/>
+                                <input class="email"type="email" name="email" id="email" placeholder="EMAIL"/>
                             </div>
                             <div class="field">
-                                <textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+                                <textarea class="message" name="message" id="message" placeholder="MESSAGE" rows="7"></textarea>
                             </div>
                             <div class="field">
                                 <div data-netlify-recaptcha="true"></div>
                             </div>
                         </div>
-                        <ul class="actions">
-                            <li><input type="submit" value="Send Message" class="primarybutton" /></li>
-                        </ul>
+                        <input class="button" type="submit" value="Send Message" class="primarybutton" />
                     </form>
+                    
                 </div>
+                <p class="statement">Forms powered by Netlify.</p>
             </div>
         </div>
 

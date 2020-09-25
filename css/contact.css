@@ -107,10 +107,10 @@ a:link, a:visited {
 
 .content{
     margin:0;
-    padding: 30px 45px;
+    padding: 30px 45px 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: baseline;
+    align-items: stretch;
 }
 
 .box{
@@ -120,9 +120,10 @@ a:link, a:visited {
     width: 80%;
     position: relative;
     border-color: #B5BA7e;
-}
-input{
-    align-items: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .col{
@@ -135,4 +136,38 @@ input{
 .menutext1, .menutext2:hover{
     background-image: url("../images/highlight.png");
     background-size: cover;
+}
+
+.fieldhalf, .field{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+}
+.name, .email, .message, .button{
+    border:none;
+    border-bottom: solid;
+    border-color: rgb(0, 0, 0, .2);
+    border-width: 2px;
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+    font-size: 10px;
+    opacity: 0.5;
+    width:750px;
+}
+
+.name, .email{
+    height: 20px;
+}
+
+.button{
+    width:auto;
+    padding:5px;
+}
+
+.statement{
+    align-items: center;
+    font-size: 10px;
+    padding-bottom: 25px;
+    opacity: 0.5;
 }

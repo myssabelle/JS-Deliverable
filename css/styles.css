@@ -18,3 +18,8 @@
     font-weight:400;
     src: url('../fonts/Crowny.ttf');
 }
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.ttf'); 
+}
