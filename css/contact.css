@@ -33,6 +33,7 @@ a:link, a:visited {
     background-color: white;
     display: flex;
     align-items: center;
+    z-index:1;
 }
   
 .menutext1, .menutext2{
@@ -53,10 +54,12 @@ a:link, a:visited {
     width: 100%;
     min-width: 1000px;
     height: 90%;
+    min-height:1000px;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 0;
 }
   
 .footer{
