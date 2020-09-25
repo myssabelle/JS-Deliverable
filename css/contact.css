@@ -141,7 +141,7 @@ a:link, a:visited {
 .fieldhalf, .field{
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
     flex-direction: column;
 }
 .name, .email, .message, .button{
@@ -169,5 +169,4 @@ a:link, a:visited {
     align-items: center;
     font-size: 10px;
     padding-bottom: 25px;
-    opacity: 0.5;
-}
+    opa
