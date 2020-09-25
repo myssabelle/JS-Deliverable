@@ -1,0 +1,89 @@
+body{
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing:-1px;
+    line-height: 1.2;
+    margin: 0;
+    text-align:center;
+    background: linear-gradient(to right, #ff7aa0 20%, 	#FFFF00 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p{
+    color: #ff7aa0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing:-1px;
+    text-align: center;
+    margin-top: -10px;
+}
+a:link, a:visited {
+  background-color: transparent;
+  padding: 10px 10px;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+  margin-top: 3px;
+}
+
+a:hover, a:active {
+  background-color: rgba(254, 210, 251, 0.70);
+}
+
+.icons {
+    text-align: center;
+}
+
+
+.Home .home{
+  width:70px;
+  height:70px;
+  background-image:url('../images/icons/home_pink.svg');
+  background-size: cover;
+}
+
+.Home:hover .home{
+  background-image: url('../images/icons/home.svg');
+}
+
+.Blog .blog{
+  width:70px;
+  height:70px;
+  background-image:url('../images/icons/blog_pink.svg');
+  background-size: cover;
+}
+
+.Blog:hover .blog{
+  background-image: url('../images/icons/blog.svg');
+}
+
+.SocialMedia .smedia{
+  width:70px;
+  height:70px;
+  background-image:url('../images/icons/smedia_pink.svg');
+  background-size: cover;
+}
+
+.SocialMedia:hover .smedia{
+  background-image: url('../images/icons/smedia.svg');
+}
