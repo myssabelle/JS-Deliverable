@@ -117,6 +117,7 @@ a:link, a:visited {
     border: solid;
     border-width: 10px;
     margin: 91px 100px 0;
+    padding-bottom: 25px;
     width: 80%;
     position: relative;
     border-color: #B5BA7e;
@@ -139,34 +140,32 @@ a:link, a:visited {
 }
 
 .fieldhalf, .field{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    display: block;
+    text-align:left;
 }
 .name, .email, .message, .button{
     border:none;
-    border-bottom: solid;
-    border-color: rgb(0, 0, 0, .2);
-    border-width: 2px;
+    border: solid;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-radius: 7px;
     margin-bottom: 10px;
     font-family: 'Poppins';
-    font-size: 10px;
+    font-size: 12px;
     opacity: 0.5;
     width:750px;
-}
-
-.name, .email{
-    height: 20px;
+    padding: 10px 15px;
 }
 
 .button{
     width:auto;
     padding:5px;
+    margin: 10px;
 }
 
 .statement{
     align-items: center;
     font-size: 10px;
-    padding-bottom: 25px;
-    opa
+    opacity: 0.5;
+    margin:0;
+}
