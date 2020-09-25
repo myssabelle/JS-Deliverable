@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="../css/contact.css" type="text/css">
+        <link rel="stylesheet" href="../css/styles.css" type="text/css">
+    </head>
+    <body>
+
+        <div class ="topbar">
+            <nav class = "menubar">
+                <a class= "Logo" href="index.html">
+                    <img src="../images/logo.png" style="height:40px;" title="Home" alt="Home">
+                </a>
+                <a class= "Home" href="../index.html">
+                    <p class="menutext2">HOME</p>
+                </a>
+                <a class= "Profile" href="profile.html">
+                    <p class="menutext2">Profile</p>
+                </a>
+                <a class= "ContactUs" href="contact.html">
+                    <p class="menutext1">Contact Us</p>
+                </a>
+                <a class= "Facebook" href="https://www.facebook.com/aizahbel">
+                    <p class="menutext2">Facebook</p>
+                </a>
+            </nav>
+        </div>
+
+        <div class="page">
+            <div class="box">
+                <div class="content">
+                    <h2 class="head">Something to say?</h2>
+                    <!--<div class="col">
+                        <p class="name">Name</p>
+                        <input type="text">
+                        <p class="email">Email</p>
+                        <input type="email">
+                        <p class="message">Message</p>
+                        <textarea name="message"></textarea>
+                        <br>
+                        <input type="submit" value="Submit">
+                    </div>
+                    <div class="col">
+                        <img src="../images/giphy.gif" style="width:400px">
+                    </div> -->
+                    <form action="POST" data-netlify="true">
+                        <div class="fields">
+                            <div class="fieldhalf">
+                                <input type="text" name="name" id="name" placeholder="Name"/>
+                            </div>
+                            <div class="fieldhalf">
+                                <input type="email" name="email" id="email" placeholder="Email"/>
+                            </div>
+                            <div class="field">
+                                <textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+                            </div>
+                            <div class="field">
+                                <div data-netlify-recaptcha="true"></div>
+                            </div>
+                        </div>
+                        <ul class="actions">
+                            <li><input type="submit" value="Send Message" class="primarybutton" /></li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class ="namecol">
+            <img src="../images/end.png" style="height:30px;">
+            </div>
+            <div class ="cc">
+            <p class="footertext">© 2020 Hermosa Inc. All rights reserved.</p>
+            </div>
+            <div class ="socialmedia">
+                <a class="smedialink" href="https://twitter.com/mryyssabelle">
+                    <img src="../images/icons/twitter.svg" style="width:40px;" title="Pictures" alt="Pictures">
+                </a>
+                <a class="smedialink" href="https://github.com/myssabelle">
+                    <img src="../images/icons/github.svg" style="width:40px;" title="Pictures" alt="Pictures">
+                </a>
+                <a class="smedialink" href="https://www.facebook.com/aizahbel">
+                    <img src="../images/icons/fb.svg" style="width:40px;" title="Pictures" alt="Pictures">
+                </a>
+            </div>
+        </div>
+
+    </body>
+</html>

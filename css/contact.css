@@ -1,0 +1,138 @@
+body {
+    text-align: center;
+    background-color:#f4afb3;
+    margin: 0;
+}
+  
+p{
+    color: #111;
+    font-family: 'Helvetica Neue';
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: justify;
+    margin-bottom: 0;
+}
+  
+a:link, a:visited {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+}
+  
+.menubar {
+    width:100%;
+    margin-left: 0;
+    text-align: left;
+    padding: 10px 0px;
+    border-bottom: solid;
+    border-color: #BDC8C0;
+    border-width: 0.5px;
+    position: fixed;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+  
+.menutext1, .menutext2{
+    width: max-content;
+    font-family: 'Bebas';
+    padding: 0;
+    margin:0;
+    font-size: 25px;
+    margin-left: 15px;;
+    opacity: 65%;
+}
+  
+.Logo{
+    margin-left:15px;
+}
+
+.page{
+    width: 100%;
+    min-width: 1000px;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    min-width: 1000px;
+}
+  
+.namecol{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.cc{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+  
+.footertext{
+    padding: 0;
+    margin: 0;
+}
+  
+.socialmedia{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    font-family: 'Bebas';
+    font-size: 80px;
+    margin: 0;
+    position: absolute;
+    top: -83px;
+    color: #B5BA7e;
+    left: 24px;
+}
+
+.content{
+    margin:0;
+    padding: 30px 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    border: solid;
+    border-width: 10px;
+    margin: 91px 100px 0;
+    width: 80%;
+    position: relative;
+    border-color: #B5BA7e;
+}
+input{
+    align-items: left;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    width: 400px;
+}
+.menutext1, .menutext2:hover{
+    background-image: url("../images/highlight.png");
+    background-size: cover;
+}

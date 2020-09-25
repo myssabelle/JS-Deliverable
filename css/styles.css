@@ -11,3 +11,10 @@
     font-weight:400;
     src: url('../fonts/Bebas.ttf');
 }
+
+@font-face {
+    font-family: 'Crowny';
+    font-style: normal;
+    font-weight:400;
+    src: url('../fonts/Crowny.ttf');
+}

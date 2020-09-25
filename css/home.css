@@ -1,89 +1,176 @@
-body{
-    background-color: white;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    background-position: center;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+/*
+COLORS
+#b5ba7e green
+#f4afb3 light pink
+#e18d96 dark pink
+#a02c2d red
+*/
+body {
+  text-align: center;
+  background-color:#f4afb3;
+  margin: 0;
 }
-h1{
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 100px;
-    font-weight: bold;
-    letter-spacing:-1px;
-    line-height: 1.2;
-    margin: 0;
-    text-align:center;
-    background: linear-gradient(to right, #ff7aa0 20%, 	#FFFF00 90%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+
 p{
-    color: #ff7aa0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    letter-spacing:-1px;
-    text-align: center;
-    margin-top: -10px;
+  color: #111;
+  font-family: 'Helvetica Neue';
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-align: justify;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 0;
 }
+
 a:link, a:visited {
-  background-color: transparent;
-  padding: 10px 10px;
-  border-top: 2px solid white;
-  border-left: 2px solid white;
-  border-right: 2px solid white;
-  border-bottom: 2px solid white;
+  color: black;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin-left: 3px;
-  margin-right: 3px;
-  margin-bottom: 5px;
-  margin-top: 3px;
+  padding: 5px;
 }
 
-a:hover, a:active {
-  background-color: rgba(254, 210, 251, 0.70);
+.menubar {
+  width:100%;
+  margin-left: 0;
+  text-align: left;
+  padding: 10px 0px;
+  border-bottom: solid;
+  border-color: #BDC8C0;
+  border-width: 0.5px;
+  position: fixed;
+  left:0;
+  right:0;
+  top:-71px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  transition: top 200ms ease;
 }
 
-.icons {
-    text-align: center;
+.menubar.slide{
+  top:0;
 }
 
+.menutext1, .menutext2{
+  width: max-content;
+  font-family: 'Bebas';
+  padding: 0;
+  margin:0;
+  font-size: 25px;
+  margin-left: 15px;;
+  opacity: 65%;
+}
 
-.Home .home{
-  width:70px;
-  height:70px;
-  background-image:url('../images/icons/home_pink.svg');
+.Logo{
+  margin-left:15px;
+}
+
+.starter{
+  width: 100%;
+  height: 100%;
+  min-width: 1100px;
+  background-color: white;
+}
+
+.content{
+  height:90%;
+  width:100%;
+  min-width: 1100px;
+  background-color: white;;
+}
+
+.items{
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  min-width: 1000px;
+}
+
+.namecol{
+  width: 25%;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cc{
+  width: 50%;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.footertext{
+  padding: 0;
+  margin: 0;
+}
+
+.socialmedia{
+  width: 25%;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head, .head2{
+  font-family: 'Bebas';
+  font-size: 80px;
+  margin: 0;
+  position: absolute;
+  color: #f4afb3;
+  left: 24px;
+  white-space: nowrap;
+}
+
+.cols{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head2{
+  top: -39px;
+  font-size: 40px;
+}
+
+.content{
+  display: flex;
+}
+
+.box{
+  width: 300px;
+  border: solid;
+  border-width: 3px;
+  margin: 91px 25px 0;
+  position: relative;
+  border-color: #f4afb3;
+}
+
+.poster{
+  width: 300px;
+  height:470px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.menutext1, .menutext2:hover{
+  background-image: url("../images/highlight.png");
   background-size: cover;
-}
-
-.Home:hover .home{
-  background-image: url('../images/icons/home.svg');
-}
-
-.Blog .blog{
-  width:70px;
-  height:70px;
-  background-image:url('../images/icons/blog_pink.svg');
-  background-size: cover;
-}
-
-.Blog:hover .blog{
-  background-image: url('../images/icons/blog.svg');
-}
-
-.SocialMedia .smedia{
-  width:70px;
-  height:70px;
-  background-image:url('../images/icons/smedia_pink.svg');
-  background-size: cover;
-}
-
-.SocialMedia:hover .smedia{
-  background-image: url('../images/icons/smedia.svg');
 }
