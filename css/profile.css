@@ -1,0 +1,141 @@
+body {
+    text-align: center;
+    background-color:#f4afb3;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 190px;
+    font-weight: bold;
+    letter-spacing: -10px;
+    line-height: 1.2;
+    margin-top: 60px;
+    margin-bottom: -35px;
+    text-align:center;
+	background: linear-gradient(to right, #ff7aa0 10%, 	#FFFF00 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+p{
+    color: #111;
+    font-family: 'Helvetica Neue';
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 0;
+}
+  
+a:link, a:visited {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+}
+  
+.menubar {
+    width:100%;
+    margin-left: 0;
+    text-align: left;
+    padding: 10px 0px;
+    border-bottom: solid;
+    border-color: #BDC8C0;
+    border-width: 0.5px;
+    position: fixed;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+  
+.menutext{
+    width: max-content;
+    font-family: 'Bebas';
+    padding: 0;
+    margin:0;
+    font-size: 25px;
+    margin-left: 15px;;
+    opacity: 65%;
+}
+  
+.Logo{
+    margin-left:15px;
+}
+
+.page{
+    background-color: white;
+}
+
+.starter{
+    padding: 10% 0 5% 0;
+}
+
+.self{
+    display:flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.icondiv{
+    width:300px;
+    height:300px;
+    background-image: url('../images/userpics/ppicon.png');
+    flex-shrink: 0;
+    background-size: cover;
+}
+
+.icondiv:hover{
+    background-image: url('../images/userpics/ppicon2.png');
+    background-size: cover;
+}
+
+.self .selfdes{
+    font-size: 18px;
+    font-family: 'Helvetica Neue', sans-serif;
+    padding: 30px;
+    text-align: justify;
+    line-height: 1.5;
+    min-width: 200px;
+    margin:0 0 0 30px;
+    padding:0;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 10%;
+}
+  
+.namecol{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.cc{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+  
+.footertext{
+    padding: 0;
+    margin: 0;
+}
+  
+.socialmedia{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -2,12 +2,12 @@
     font-family: 'Cattieshine';
     font-style: normal;
     font-weight: 400;
-    src: url('../Cattieshine.ttf');
+    src: url('../fonts/Cattieshine.ttf');
 }
 
 @font-face {
     font-family: 'Bebas';
     font-style: normal;
     font-weight:400;
-    src: url('../BebasNeue-Regular.ttf');
+    src: url('../fonts/Bebas.ttf');
 }
