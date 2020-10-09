@@ -1,0 +1,9 @@
+.content
+{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #f4afb3;
+    font-family: 'Helvetica Neue'; 
+}

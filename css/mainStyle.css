@@ -11,6 +11,12 @@ body {
   margin: 0;
 }
 
+.whole{
+  background-color: white;
+  width: 100%;
+  min-width: 1100px;
+}
+
 p{
   color: #111;
   font-family: 'Helvetica Neue';
@@ -46,7 +52,7 @@ a:link, a:visited {
   display: flex;
   align-items: center;
   z-index: 1;
-  transition: top 200ms ease;
+  transition: top 750ms ease;
 }
 
 .menubar.slide{
@@ -63,28 +69,35 @@ a:link, a:visited {
   opacity: 65%;
 }
 
+.menutext1, .menutext2:hover{
+  background-image: url("../images/highlight.png");
+  background-size: cover;
+}
+
 .Logo{
   margin-left:15px;
 }
 
 .starter{
   width: 100%;
-  height: 100%;
   min-width: 1100px;
+  height: 850px;
   background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .content{
-  height:90%;
-  min-height: 700px;
+  height:700px;
   width:100%;
-  min-width: 1000px;
   min-width: 1100px;
-  background-color: white;;
+  background-color: white;
+  display: flex;
 }
 
 .items{
-  height:100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -95,7 +108,8 @@ a:link, a:visited {
   display: flex;
   justify-content: center;
   height: 80px;
-  min-width: 1000px;
+  width: 100%;
+  min-width: 1100px;
 }
 
 .namecol{
@@ -130,49 +144,69 @@ a:link, a:visited {
   align-items: center;
 }
 
-.head, .head2{
-  font-family: 'Bebas';
-  font-size: 80px;
-  margin: 0;
-  position: absolute;
-  color: #f4afb3;
-  left: 24px;
-  white-space: nowrap;
+.pagebox{
+  width: 200px;
+  height:200px;
+  border: solid;
+  border-color: #f4afb3;
+  border-width: 2px;
+  margin: 5px;
+  opacity: .5;
 }
 
-.cols{
-  width: 100%;
+.pages, .pagebox{
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
-.head2{
-  top: -39px;
-  font-size: 40px;
+.pages{
+  widows: 100%;
+  min-width: 1100px;
+  height: auto;
+  padding: 25px;
 }
 
-.content{
-  display: flex;
+.pagetitle{
+  font-family: 'Bebas';
+  color: #f4afb3;
+  font-size: 100px;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+  height:200px;
+  justify-content: center;
 }
 
-.box{
-  width: 300px;
-  border: solid;
-  border-width: 3px;
-  margin: 91px 25px 0;
-  position: relative;
-  border-color: #f4afb3;
+.pagetitle:hover{
+  color: black;;
+  opacity: .7;
 }
 
-.poster{
-  width: 300px;
-  height:470px;
-  object-fit: cover;
-  object-position: center;
-}
-
-.menutext1, .menutext2:hover{
-  background-image: url("../images/highlight.png");
+.pagebox:hover, #present{
+  background-image: url("../images/giphy.gif");
   background-size: cover;
+  opacity: 1;
+}
+
+.content
+{
+    width: 80%;
+    min-width: 800px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #f4afb3;
+}
+
+.JS
+{
+    width: 100%;
+    min-width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
 }
